@@ -1,4 +1,4 @@
-name: PIP-Android
+name: PIP.Android
 
 on:
   push:
