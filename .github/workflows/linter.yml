@@ -1,0 +1,42 @@
+name: Super-Linter
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+    paths-ignore:
+      - .github/workflows/**
+    
+jobs:
+  linter:
+    name: 🔍 Lint Code
+    runs-on: ubuntu-latest
+    steps:
+    
+    - uses: actions/checkout@v3
+    - name: Get branch name (merge)
+      if: github.event_name != 'pull_request'
+      shell: bash
+      run: echo "BRANCH_NAME=$(echo ${GITHUB_REF#refs/heads/} | tr / -)" >> $GITHUB_ENV
+
+    - name: Get branch name (pull request)
+      if: github.event_name == 'pull_request'
+      shell: bash
+      run: echo "BRANCH_NAME=$(echo ${GITHUB_HEAD_REF} | tr / -)" >> $GITHUB_ENV
+
+    - name: print the branch name
+      run: echo ${{ env.BRANCH_NAME }}
+
+    - name: Run Super linter
+      id: linter
+      uses: github/super-linter@v4.9.6
+      env:
+        VALIDATE_ALL_CODEBASE: false
+        VALIDATE_JAVA: true
+        VALIDATE_JAVASCRIPT_ES: true
+        VALIDATE_JAVASCRIPT_STANDARD: true        
+        DEFAULT_BRANCH: ${{ env.BRANCH_NAME }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  
