@@ -93,7 +93,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     
   app-center:
-    name: Upload to App Center ⬆️
+    name: ⬆️ Upload to App Center
     runs-on: ubuntu-latest
     needs: build
     environment: App Center
