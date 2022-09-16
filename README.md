@@ -1,5 +1,5 @@
-![Codacy Security Scan](https://github.com/srivatsamarichi/pip-kotlin/workflows/Codacy%20Security%20Scan/badge.svg)
-![CodeQL](https://github.com/srivatsamarichi/pip-kotlin/workflows/CodeQL/badge.svg)
+## Build Status 🚦
+
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/b22f004ffda14b4a80db6f5802e0a9f2)](https://app.codacy.com/gh/srivatsamarichi/pip-kotlin?utm_source=github.com&utm_medium=referral&utm_content=srivatsamarichi/pip-kotlin&utm_campaign=Badge_Grade)
 [![Build status](https://build.appcenter.ms/v0.1/apps/b3cf3ffd-73b8-4f23-9996-db1264906b86/branches/master/badge)](https://appcenter.ms)
 
