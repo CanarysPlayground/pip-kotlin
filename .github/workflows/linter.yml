@@ -2,9 +2,11 @@ name: Super-Linter
 
 on:
   push:
-    branches: [ feature ]
+    branches: [ master ]
   pull_request:
     branches: [ master ]
+    paths-ignore:
+      - .github/workflows/**
     
 jobs:
   linter:
