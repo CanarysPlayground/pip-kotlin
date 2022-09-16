@@ -31,3 +31,13 @@ jobs:
       with:
           name: app
           path: app/build/outputs/apk/debug/app-debug.apk
+    
+    - name: upload artifact to App Center
+      uses: wzieba/AppCenter-Github-Action@v1
+      with:
+        appName: pip-kotlin/Sample-App
+        token: ${{secrets.APP_CENTER_TOKEN}}
+        group: Testers
+        file: /home/runner/work/pip-kotlin/pip-kotlin/app/build/outputs/apk/debug/app-debug.apk
+        notifyTesters: true
+        debug: false
