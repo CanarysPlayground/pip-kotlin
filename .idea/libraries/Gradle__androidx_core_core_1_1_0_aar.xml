@@ -2,15 +2,20 @@
   <library name="Gradle: androidx.core:core:1.1.0@aar">
     <ANNOTATIONS>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2ec7e537e97d5168e1596dd872ae6458/core-1.1.0/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/Downloads/gradle-7.5.1/caches/transforms-3/326dae4a91e082729a5b6467c8667251/transformed/core-1.1.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2ec7e537e97d5168e1596dd872ae6458/core-1.1.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2ec7e537e97d5168e1596dd872ae6458/core-1.1.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2ec7e537e97d5168e1596dd872ae6458/core-1.1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/Downloads/gradle-7.5.1/caches/transforms-3/326dae4a91e082729a5b6467c8667251/transformed/core-1.1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/Downloads/gradle-7.5.1/caches/transforms-3/326dae4a91e082729a5b6467c8667251/transformed/core-1.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Downloads/gradle-7.5.1/caches/transforms-3/326dae4a91e082729a5b6467c8667251/transformed/core-1.1.0/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.core/core/1.1.0/4ae37fad1fe95b42aa47a720908df37ba5d3c85e/core-1.1.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/gradle-7.5.1/caches/modules-2/files-2.1/androidx.core/core/1.1.0/4ae37fad1fe95b42aa47a720908df37ba5d3c85e/core-1.1.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

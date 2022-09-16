@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PictureInPictureKotlin.iml" filepath="$PROJECT_DIR$/.idea/modules/PictureInPictureKotlin.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/PictureInPictureKotlin.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/PictureInPictureKotlin.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pip-kotlin.iml" filepath="$PROJECT_DIR$/.idea/modules/pip-kotlin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/pip-kotlin.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/pip-kotlin.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/pip-kotlin.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/pip-kotlin.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/pip-kotlin.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/pip-kotlin.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/pip-kotlin.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/pip-kotlin.app.unitTest.iml" />
     </modules>
   </component>
 </project>
