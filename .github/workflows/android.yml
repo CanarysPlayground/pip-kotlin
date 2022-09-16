@@ -1,4 +1,4 @@
-name: PIP.Android
+name: PIP.Android.CI
 
 on:
   push:
@@ -99,8 +99,9 @@ jobs:
     environment: App Center
     steps:
 
-    - name: Build Release
-      run: ./gradlew assembleRelease
+    - uses: actions/download-artifact@v3
+      with:
+        name: app
     
     - name: Upload apk to App Center
       uses: wzieba/AppCenter-Github-Action@v1
