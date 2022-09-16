@@ -39,7 +39,7 @@ jobs:
       with:
         appName: pip-kotlin
         token: ${{secrets.APP_CENTER_TOKEN}}
-        group: Testers
+        group: Beta-testers
         file: /home/runner/work/pip-kotlin/pip-kotlin/app/build/outputs/apk/debug/app-debug.apk
         notifyTesters: true
         debug: false
