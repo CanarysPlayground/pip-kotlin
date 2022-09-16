@@ -103,12 +103,13 @@ jobs:
       with:
         name: app
     
+    - run: ls -la
     - name: Upload apk to App Center
       uses: wzieba/AppCenter-Github-Action@v1
       with:
         appName: ramesh.kumar-ecanarys.com/pip-kotlin
         token: ${{secrets.APP_CENTER_TOKEN}}
         group: Beta-testers
-        file: /home/runner/work/pip-kotlin/pip-kotlin/app/build/outputs/apk/debug/app-debug.apk
+        file: ${{github.workspace}}/app-debug.apk
         notifyTesters: true
         debug: false
