@@ -26,6 +26,18 @@ buildscript {
     }
 }
 
+def getVersionName = { ->
+        def name = project.hasProperty('versionName') ? versionName : "1.0"
+        println "VersionName is set to $name"
+        return name
+    } 
+
+    ext{
+        versionCode = getVersionCode()
+        versionName = getVersionName()
+    }
+}
+
 allprojects {
     repositories {
         google()
